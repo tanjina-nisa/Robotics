@@ -1,28 +1,55 @@
-# 🤖 Robotics Projects
+# 🌱 Autonomous Line Follower & Plant Watering Robot
 
-Welcome to my Robotics Projects repository.
+An Arduino-based autonomous robot that combines line-following navigation with an automatic plant watering system. The robot follows a predefined path using IR sensors and monitors soil moisture in real time. When the soil moisture level falls below a predefined threshold, it automatically activates a water pump to irrigate the plant.
 
-This repository contains a collection of Arduino-based robotics and embedded systems projects developed for academic coursework and hands-on learning. These projects focus on automation, sensor integration, robot navigation, and real-world problem solving.
+## Features
 
-## Projects
+- Autonomous line following using IR sensors
+- Automatic plant watering based on soil moisture
+- Real-time sensor monitoring
+- Arduino-based embedded system
+- Low-cost and energy-efficient design
 
-- 🚗 Line Follower & Plant Watering Robot
-- 🔥 Firefighting Robot
-- 📱 Bluetooth-Based Android-Controlled Robot
-- ⚖️ Self-Balancing Robot
-- 🚧 Obstacle Avoidance Maze-Solving Robot
-- 🧹 IoT-Based Floor Cleaning Robot
+## Components
+
+- Arduino Uno
+- IR Sensor Module
+- Soil Moisture Sensor
+- Water Pump
+- Relay Module
+- DC Motors
+- Motor Driver (L298N)
+- Chassis & Wheels
+- Battery Pack
 
 ## Technologies
 
 - Arduino
 - Embedded C
-- IR Sensors
-- Ultrasonic Sensors
-- Soil Moisture Sensor
-- Bluetooth (HC-05)
-- DC Motors & Motor Drivers
-- Servo Motors
-- IoT Modules
+- Sensor Integration
+- Robotics
+- Embedded Systems
 
-> More robotics projects will be added over time.
+## Repository Structure
+
+```
+.
+├── code/
+├── circuit/
+├── docs/
+│   ├── Project_Report.pdf
+│   └── Project_Presentation.pdf
+├── images/
+└── README.md
+```
+
+## Future Improvements
+
+- IoT-based remote monitoring
+- Mobile application integration
+- Obstacle avoidance
+- Solar-powered operation
+
+---
+
+This project was developed as an academic robotics project to demonstrate autonomous navigation and smart irrigation using embedded systems.
